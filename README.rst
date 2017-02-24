@@ -11,24 +11,26 @@ from git history.
 Use stackalytics
 ----------------
 
-apt-get update
-apt-get install -y git
-apt-get install -y python
-apt-get install -y python-setuptools
-apt-get install -y python-pip
-apt-get install -y libssl-dev
-apt-get install -y memcached
-git clone https://github.com/openstack/stackalytics/
-cd stackalytics/
-pip install -r requirements.txt
-python setup.py install
-memcached -u memcache -d
+ apt-get update
+ apt-get install -y git
+ apt-get install -y python
+ apt-get install -y python-setuptools
+ apt-get install -y python-pip
+ apt-get install -y libssl-dev
+ apt-get install -y memcached
+ git clone https://github.com/openstack/stackalytics/
+ cd stackalytics/
+ pip install -r requirements.txt
+ python setup.py install
+ memcached -u memcache -d
 
 # Store data into memcached DB
-/usr/local/bin/stackalytics-processor  --config-file etc/stackalytics.conf
+
+ /usr/local/bin/stackalytics-processor  --config-file etc/stackalytics.conf
 
 # Start http server for stackalytics (http://127.0.0.1:8080/)
-/usr/local/bin/stackalytics-dashboard
+
+ /usr/local/bin/stackalytics-dashboard
 
 
 Config file - default_data.json
