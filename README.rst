@@ -11,6 +11,8 @@ from git history.
 Use stackalytics
 ----------------
 
+Install stackalytics::
+
  apt-get update
  apt-get install -y git
  apt-get install -y python
@@ -24,11 +26,11 @@ Use stackalytics
  python setup.py install
  memcached -u memcache -d
 
-# Store data into memcached DB
+Store data into memcached DB::
 
  /usr/local/bin/stackalytics-processor  --config-file etc/stackalytics.conf
 
-# Start http server for stackalytics (http://127.0.0.1:8080/)
+Start http server for stackalytics (http://127.0.0.1:8080/)::
 
  /usr/local/bin/stackalytics-dashboard
 
