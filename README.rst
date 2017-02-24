@@ -19,6 +19,7 @@ Install stackalytics::
  apt-get install -y python-setuptools
  apt-get install -y python-pip
  apt-get install -y libssl-dev
+ apt-get install -y libffi-dev
  apt-get install -y memcached
  git clone https://github.com/openstack/stackalytics/
  cd stackalytics/
