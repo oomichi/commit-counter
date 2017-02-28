@@ -25858,65 +25858,9 @@
     ],
     "repos": [
         {
-            "releases": [
-                {
-                    "tag_to": "folsom-eol",
-                    "release_name": "Folsom",
-                    "tag_from": "c53d8e34"
-                },
-                {
-                    "tag_to": "grizzly-eol",
-                    "release_name": "Grizzly",
-                    "tag_from": "2012.2"
-                },
-                {
-                    "tag_to": "havana-eol",
-                    "release_name": "Havana",
-                    "tag_from": "2013.1"
-                },
-                {
-                    "tag_to": "icehouse-eol",
-                    "release_name": "Icehouse",
-                    "tag_from": "2013.2"
-                },
-                {
-                    "tag_to": "juno-eol",
-                    "release_name": "Juno",
-                    "tag_from": "2014.1"
-                },
-                {
-                    "branch": "stable/kilo",
-                    "tag_to": "HEAD",
-                    "release_name": "Kilo",
-                    "tag_from": "2014.2.rc2"
-                },
-                {
-                    "branch": "stable/liberty",
-                    "tag_to": "HEAD",
-                    "release_name": "Liberty",
-                    "tag_from": "2015.1.0rc1"
-                },
-                {
-                    "branch": "stable/mitaka",
-                    "tag_to": "HEAD",
-                    "release_name": "Mitaka",
-                    "tag_from": "7.0.0.0rc1"
-                },
-                {
-                    "branch": "stable/newton",
-                    "tag_to": "HEAD",
-                    "release_name": "Newton",
-                    "tag_from": "8.0.0.0rc1"
-                },
-                {
-                    "tag_to": "HEAD",
-                    "release_name": "Ocata",
-                    "tag_from": "9.0.0.0rc1"
-                }
-            ],
-            "uri": "git://git.openstack.org/openstack/cinder.git",
-            "module": "cinder",
-            "organization": "openstack"
+            "uri": "git://git.apache.org/mesos.git",
+            "module": "mesos",
+            "organization": "apache"
         }
     ],
     "project_sources": [
