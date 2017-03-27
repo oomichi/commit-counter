@@ -41,6 +41,7 @@ Config file - default_data.json
 
 * users: Relationship between developers and companies
 * companies: Relationship between e-mail domains and companies
+* releases: Consistent version info for all parsed repos. (Mandatory)
 * repos: Target git repo
 * mail_lists: Target mailing lists - Better to remove whole of this for local usage
 

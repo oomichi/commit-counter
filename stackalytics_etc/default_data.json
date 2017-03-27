@@ -1773,7 +1773,12 @@
     ],
     "project_sources": [],
     "module_groups": [],
-    "releases": [],
+    "releases": [
+        {
+            "release_name": "Next",
+            "end_date": "2018-Jan-01"
+        }
+    ],
     "member_lists": ["http://www.openstack.org/community/members/profile/"],
     "project_types": []
 }
