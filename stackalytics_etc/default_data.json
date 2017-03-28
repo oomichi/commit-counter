@@ -1779,6 +1779,6 @@
             "end_date": "2018-Jan-01"
         }
     ],
-    "member_lists": ["http://www.openstack.org/community/members/profile/"],
+    "member_lists": [],
     "project_types": []
 }
