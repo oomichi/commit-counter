@@ -35,6 +35,8 @@ Start http server for stackalytics (http://127.0.0.1:8080/)::
 
  /usr/local/bin/stackalytics-dashboard
 
+We can access a web site with http://127.0.0.1:8080/widget
+
 
 Config file - default_data.json
 -------------------------------
