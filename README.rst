@@ -35,8 +35,13 @@ Start http server for stackalytics (http://127.0.0.1:8080/)::
 
  /usr/local/bin/stackalytics-dashboard
 
-We can access a web site with http://127.0.0.1:8080/widget
+Challenges
+----------
 
+1. http://127.0.0.1:8080/widget seems a proxy to http://stackalytics.com
+2. http://127.0.0.1:8080/api/1.0/companies needs to provide companies data
+   Now: facing 404.
+   maybe some decorators make a request ignored, so we need to check them of decorators.py related to record_ids.
 
 Config file - default_data.json
 -------------------------------
