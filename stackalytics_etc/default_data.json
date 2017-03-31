@@ -1761,6 +1761,10 @@
         {
             "domains": ["zte.com.cn"],
             "company_name": "ZTE Corporation"
+        },
+        {
+            "domains": ["mesosphere.io"],
+            "company_name": "Mesosphere"
         }
 
     ],
