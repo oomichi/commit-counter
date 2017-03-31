@@ -39,9 +39,9 @@ Challenges
 ----------
 
 1. http://127.0.0.1:8080/widget seems a proxy to http://stackalytics.com
-2. http://127.0.0.1:8080/api/1.0/companies needs to provide companies data
-   Now: facing 404.
-   maybe some decorators make a request ignored, so we need to check them of decorators.py related to record_ids.
+2. http://127.0.0.1:8080//api/1.0/stats/companies needs to provide companies data
+   Now: 200 with empty data like {"stats": []}
+   It should contain company names from git history
 
 TODO
 ----
