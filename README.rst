@@ -33,7 +33,7 @@ Store data into memcached DB::
 
 Start http server for stackalytics (http://127.0.0.1:8080/)::
 
- /usr/local/bin/stackalytics-dashboard
+ stackalytics-dashboard --config-file commit-counter/stackalyts_etc/stackalytics.conf  -d
 
 Challenges
 ----------
