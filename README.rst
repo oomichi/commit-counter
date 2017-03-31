@@ -29,11 +29,11 @@ Install stackalytics::
 
 Store data into memcached DB::
 
- /usr/local/bin/stackalytics-processor  --config-file commit-counter/stackalytics_etc/stackalytics.conf --default-data-uri file:///home/oomichi/commit-counter/stackalytics_etc/default_data.json
+ $ stackalytics-processor  --config-file commit-counter/stackalytics_etc/stackalytics.conf --default-data-uri file:///home/oomichi/commit-counter/stackalytics_etc/default_data.json
 
 Start http server for stackalytics (http://127.0.0.1:8080/)::
 
- stackalytics-dashboard --config-file commit-counter/stackalyts_etc/stackalytics.conf  -d
+ $ stackalytics-dashboard --config-file commit-counter/stackalyts_etc/stackalytics.conf  -d
 
 Challenges
 ----------
