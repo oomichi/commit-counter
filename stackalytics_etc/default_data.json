@@ -1780,5 +1780,12 @@
         }
     ],
     "member_lists": [],
-    "project_types": []
+    "project_types": [
+        {
+            "id": "mesos",
+            "title": "Mesos",
+            "child": true,
+            "modules": ["mesos"]
+        }
+    ]
 }
