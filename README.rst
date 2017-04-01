@@ -48,7 +48,7 @@ TODO
 
 1. (Done) Enable stackalytics-processor for mesos only
 2. Enable REST API service of stackalytics-dashboard::
- * /api/1.0/stats/companies
+ * (Done) /api/1.0/stats/companies
  * /api/1.0/stats/modules
  * /api/1.0/stats/engineers
  * /api/1.0/activity
