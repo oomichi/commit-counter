@@ -1772,6 +1772,33 @@
             "uri": "git://git.apache.org/mesos.git",
             "module": "mesos",
             "organization": "apache"
+        },
+        {
+            "uri": "git://github.com/opendaylight/controller.git",
+            "module": "odl-controller",
+            "organization": "OpenDaylight",
+            "releases": [
+                {
+                    "tag_to": "release/boron",
+                    "release_name": "Boron",
+                    "tag_from": "release/beryllium"
+                },
+                {
+                    "tag_to": "release/beryllium",
+                    "release_name": "Beryllium",
+                    "tag_from": "release/lithium"
+                },
+                {
+                    "tag_to": "release/lithium",
+                    "release_name": "Lithium",
+                    "tag_from": "release/helium"
+                },
+                {
+                    "tag_to": "release/helium",
+                    "release_name": "Helium",
+                    "tag_from": "autorelease-tag-v20140601202136_82eb3f9"
+                }
+            ]
         }
     ],
     "project_sources": [],
@@ -1789,6 +1816,12 @@
             "title": "Mesos",
             "child": true,
             "modules": ["mesos"]
+        },
+        {
+            "id": "opendaylight",
+            "title": "OpenDaylight",
+            "child": true,
+            "modules": ["odl-controller"]
         }
     ]
 }
