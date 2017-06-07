@@ -13,13 +13,12 @@ Use stackalytics
 
 Install stackalytics::
 
- apt-get update
- apt-get install -y git
- apt-get install -y python python-setuptools python-pip libssl-dev libffi-dev memcached
+ sudo apt-get update
+ sudo apt-get install -y git python python-setuptools python-pip libssl-dev libffi-dev memcached
  git clone https://github.com/openstack/stackalytics/
  cd stackalytics/
- pip install -r requirements.txt
- python setup.py install
+ sudo pip install -r requirements.txt
+ sudo python setup.py install
  memcached -u memcache -d
 
 Store data into memcached DB::
